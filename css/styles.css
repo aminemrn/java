@@ -1,61 +1,36 @@
-/* Custom CSS for the assignment */
+/* styles.css */
 body {
   font-family: Arial, sans-serif;
-}
-
-.navbar {
-  background-color: #f8f9fa;
-  border-radius: 0;
-  border: none;
-}
-
-.navbar-brand {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.navbar-toggle {
-  margin-top: 15px;
-}
-
-#navbar-menu {
-  background-color: #e9ecef;
-}
-
-#navbar-menu ul {
-  margin: 0;
-  padding: 0;
-}
-
-#navbar-menu li {
-  text-align: center;
-  border-bottom: 1px solid #ccc;
-}
-
-#navbar-menu li a {
-  color: #333;
-  font-weight: bold;
+  background-color: #f4f4f4;
+  padding: 20px;
 }
 
 h1 {
-  margin-bottom: 30px;
-}
-
-.row > div {
-  background-color: #f8f9fa;
-  padding: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-}
-
-.row > div h3 {
-  margin-top: 0;
-}
-
-.row > div a {
-  display: block;
   text-align: center;
-  margin-top: 20px;
   color: #333;
-  font-weight: bold;
+}
+
+pre {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  color: #f8f8f2;
+}
+
+.bracket {
+  color: #ff79c6; /* Pink for < and > */
+}
+
+.tag {
+  color: #50fa7b; /* Green for tag names */
+}
+
+.bracket[class*="close"] {
+  color: #ff79c6; /* Pink for </ and /> */
 }

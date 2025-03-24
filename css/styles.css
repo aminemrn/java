@@ -1,34 +1,77 @@
-/* styles.css */
+/* Custom CSS for the assignment */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding: 20px;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+}
+
+#navbar-menu {
+  background-color: #e9ecef;
+}
+
+#navbar-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar-menu li {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+#navbar-menu li a {
+  color: #333;
+  font-weight: bold;
 }
 
 h1 {
-  text-align: center;
-  color: #333;
+  margin-bottom: 30px;
 }
 
-pre {
-  background-color: #2d2d2d;
+.section-content {
+  background-color: #f8f9fa;
   padding: 20px;
-  border-radius: 5px;
-  overflow-x: auto;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  height: 700px; /* Make sections tall */
 }
 
-code {
-  font-family: "Courier New", monospace;
-  font-size: 14px;
-  color: #f8f8f2;
+.section-content h3 {
+  margin-top: 0;
 }
 
-.bracket {
-  color: #ff79c6; /* Pink for < and > */
+.section-content a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-weight: bold;
 }
 
-.tag {
-  color: #50fa7b; /* Green for tag names */
+/* Background colors for each section */
+#chicken .section-content {
+  background-color: #ffcccb; /* Light red for Chicken */
+}
+
+#beef .section-content {
+  background-color: #ffd700; /* Gold for Beef */
+}
+
+#sushi .section-content {
+  background-color: #add8e6; /* Light blue for Sushi */
 }
 
 .bracket[class*="close"] {

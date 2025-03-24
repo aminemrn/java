@@ -42,7 +42,6 @@ h1 {
 }
 
 .section-content {
-  background-color: #f8f9fa;
   padding: 20px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -72,8 +71,4 @@ h1 {
 
 #sushi .section-content {
   background-color: #add8e6; /* Light blue for Sushi */
-}
-
-.bracket[class*="close"] {
-  color: #ff79c6; /* Pink for </ and /> */
 }
